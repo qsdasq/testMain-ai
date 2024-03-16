@@ -20,6 +20,9 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
+      <head>
+        <meta name="enot" content="2f6eaa2c" />
+      </head>
         <body className={inter.className}>
           <ModalProvider />
           <ToasterProvider />
